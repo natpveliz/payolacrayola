@@ -68,7 +68,7 @@
   }
 
   .modal3 {
-    top: 90px;
+    top: 120px;
     left: 90px;
   }
   
@@ -78,13 +78,13 @@
   }
 
   .modal5 {
-    top: 70px;
-    left: 100px;
+    top: 30px;
+    left: 120px;
   }
   
   .modal6 {
     bottom: 90px;
-    right: 100px;
+    right: 30%;
   }
   
   /* shows the modal */
