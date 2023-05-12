@@ -1,0 +1,219 @@
+body{
+    background-color: black;
+}
+
+.shape1{
+    position: fixed;
+    left: 600px;
+    top:700px;
+    animation: move 30s infinite alternate;
+}
+
+.shape2{
+    position:fixed;
+    left:900px;
+    top:500px;
+    animation: move 30s infinite alternate;
+}
+
+.shape3{
+    position:fixed;
+    left:400px;
+    top:600px;
+    animation: move 90s infinite alternate;
+}
+
+.shape4{
+    position:fixed;
+    left:600px;
+    top:900px;
+    animation: move 30s infinite alternate;
+}
+
+.shape5{
+    position:fixed;
+    left:800px;
+    top:300px;
+    animation: move 40s infinite alternate;
+}
+
+.shape6{
+    position:fixed;
+    left:900px;
+    top:100px;
+    animation: move 80s infinite alternate;
+}
+
+.shape7{
+    position:fixed;
+    left:300px;
+    top:500px;
+    animation: move 30s infinite alternate;
+}
+
+.shape8{
+    position:fixed;
+    left:400px;
+    top:300px;
+    animation: move 40s infinite alternate;
+}
+
+.shape9{
+    position:fixed;
+    left:200px;
+    top:790px;
+    animation: move 30s infinite alternate;
+}
+.shape10{
+    position:fixed;
+    left:1000px;
+    top:700px;
+    animation: move 40s infinite alternate;
+}
+
+.shape11{
+    position:fixed;
+    left:100px;
+    top:100px;
+    animation: move 30s infinite alternate;
+}
+
+.shape12{
+    position:fixed;
+    left:300px;
+    top:500px;
+    animation: move 30s infinite alternate;
+}
+
+.shape13{
+    position:fixed;
+    left:700px;
+    top:900px;
+    animation: move 40s infinite alternate;
+}
+
+.shape14{
+    position:fixed;
+    left:900px;
+    top:700px;
+    animation: move 100s infinite alternate;
+}
+.shape15{
+    position: fixed;
+    left: 200px;
+    top:100px;
+    animation: move 30s infinite alternate;
+}
+
+.shape16{
+    position:fixed;
+    left:400px;
+    top:400px;
+    animation: move 30s infinite alternate;
+}
+
+.shape17{
+    position:fixed;
+    left:600px;
+    top:600px;
+    animation: move 90s infinite alternate;
+}
+
+.shape18{
+    position:fixed;
+    left:200px;
+    top:900px;
+    animation: move 30s infinite alternate;
+}
+
+.shape19{
+    position:fixed;
+    left:100px;
+    top:800px;
+    animation: move 40s infinite alternate;
+}
+
+.shape20{
+    position:fixed;
+    left:800px;
+    top:500px;
+    animation: move 80s infinite alternate;
+}
+
+.shape21{
+    position:fixed;
+    left:500px;
+    top:700px;
+    animation: move 30s infinite alternate;
+}
+
+.shape22{
+    position:fixed;
+    left:100px;
+    top:700px;
+    animation: move 40s infinite alternate;
+}
+
+.shape23{
+    position:fixed;
+    left:900px;
+    top:90px;
+    animation: move 30s infinite alternate;
+}
+.shape24{
+    position:fixed;
+    left:1000px;
+    top:100px;
+    animation: move 40s infinite alternate;
+}
+
+.shape25{
+    position:fixed;
+    left:100px;
+    top:800px;
+    animation: move 30s infinite alternate;
+}
+
+.shape26{
+    position:fixed;
+    left:1000px;
+    top:500px;
+    animation: move 30s infinite alternate;
+}
+
+.shape27{
+    position:fixed;
+    left:300px;
+    top:1000px;
+    animation: move 40s infinite alternate;
+}
+
+.shape28{
+    position:fixed;
+    left:900px;
+    top:790px;
+    animation: pulse 100s infinite alternate;
+}
+
+
+@keyframes move{
+    0%{
+        transform: translateX(20vw);
+        transform: rotate(0);
+    }
+    100%{
+        transform:translateX(60vw);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes pulse{
+    0%{
+        transform: translateX(30vw);
+        transform: rotate(180);
+    }
+    100%{
+        transform:translateX(60vw);
+        transform: rotate(360deg);
+    }
+}
