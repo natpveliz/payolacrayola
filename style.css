@@ -1,0 +1,41 @@
+body {
+    background-image: url('./images/background.jpg');
+    height:100vh;
+    /* background-color: red; */
+    /* background-color: linear-gradient(rgb(79, 89, 196),rgb(175, 37, 206),rgb(235, 23, 122),rgb(255, 136, 0), yellow); */
+  }
+
+.footer{
+    display: flex;
+    background-color: rgba(240, 176, 142, 0.85);
+    opacity: 0.5;
+    border-radius: 15px;
+    width: 50%;
+    height: 70px;
+    position: fixed;
+    bottom:20px;
+    /* align-content: center; */
+    margin-left: 25%;
+    /* margin-right: 50%; */
+}
+
+.folders{
+    /* display: flex; */
+    margin-left: 75%;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 15px;
+    grid-template-columns: 0.5fr 0.5fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    padding: 20px;
+    margin-top: 1%;
+}
+
+/* .vscode{
+    display: grid;
+    margin-left: 5%;
+    /* padding-bottom:100%; */
+
+    .circle{
+        background-color: rgb(36, 206, 36);
+    }
